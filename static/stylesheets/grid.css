@@ -1,0 +1,21 @@
+html, body{
+    font-family:"Baskerville"; font-weight: lighter;
+    font-color:#222;
+}
+#title{
+    font-size:24px;
+    letter-spacing:2px;
+    padding:20px;
+    
+}
+#key{
+    padding:20px;
+}
+#map{
+    position:relative;
+    float:top;
+}
+#map svg{
+    border:1px solid black;
+    margin:10px;
+}
