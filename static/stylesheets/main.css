@@ -11,25 +11,20 @@ html, body{
 #key{
     padding:20px;
     position:fixed;
-right:10px;
-top:0px;
+left:10px;
+top:80px;
     background-color:#fff;
     z-index:999;
 }
 #main{
     position:fixed;
     left:20px;
-    top:200px;
+    top:60px;
 }
-#map{
+#bar{
     position:fixed;
-top:200px;
-right:20px;
-    width:900px;
-}
-#map svg{
-    border:1px solid black;
-    margin:10px;
+    left:1300px;
+    top:60px; 
 }
 #caption{
     padding:20px;
