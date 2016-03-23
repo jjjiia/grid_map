@@ -13,29 +13,27 @@
 	<script src="static/javascripts/jquery-ui.min.js"></script>
 	<script src="static/javascripts/jquery-ui.min.js"></script>
 
-	<link rel="stylesheet" type="text/css" href="static/stylesheets/grid.css"> </style>
+	<link rel="stylesheet" type="text/css" href="static/stylesheets/main.css"> </style>
 	
      
 </head>
 
 <body>
   <div id = "title">
-    businesses and instagrams draft 1: individual catagories
+    businesses and instagrams draft 1: weighted grid
     </div>
-<div id = "key">opacity == instagram concentration<br/>
-    redness == business concentraion<br/><br/></div>
-<div id = "caption">caption</div>
+<div id = "key">Business Categories:<br/></div>    
+<div id = "bar">Bar Graph<br/></div>    
     
-<div id = "main">Instagram Concentration from Armin Grid data<br/></div>
-<div id = "map">Zoomed in view of same Grid with Google businesses<br/></div>
+<div id = "main">Instagram Concentration from Armin Grid data, businesses from Google spreadsheet<br/></div>
     
 <script type="text/javascript" charset="utf-8">
     var basegrid = "insta_grid.geojson"
     var all_businesses = "coordinatesByCategory.json"
-    var gridData = "instagrid/polygon_dictionary.json"
+    var gridData = "instagrid/byId.json"
 </script>
 	
-<script src="map.js"></script>
+<script src="main.js"></script>
 	
 </body>
 </html>
